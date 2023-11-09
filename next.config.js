@@ -1,4 +1,6 @@
-/** @type {import('next').NextConfig} */
+/**
+ * @type {import('next').NextConfig}
+ */
 const nextConfig = {
   experimental: {
     serverActions: true,
@@ -10,6 +12,7 @@ const nextConfig = {
     ignoreDuringBuilds: true,
   },
   images: {
+    domains: ['utfs.io'], // Add the 'utfs.io' domain here
     remotePatterns: [
       {
         protocol: "https",
