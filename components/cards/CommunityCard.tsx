@@ -71,3 +71,4 @@ function CommunityCard({ id, name, username, imgUrl, bio, members }: Props) {
 }
 
 export default CommunityCard;
+
